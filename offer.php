@@ -1,5 +1,5 @@
 <?php $connect = mysqli_connect('127.0.0.1','root','','bd');
-	 $query = mysqli_query($connect,'SELECT * FROM gamesbasket');
+	 $query = mysqli_query($connect,'SELECT * FROM gamebasket');
 	 ?>
 <!DOCTYPE html>
 <html lang="en">
