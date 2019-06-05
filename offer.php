@@ -26,9 +26,6 @@
 			<p>'.$game['price'].'<p>
 		</div>'
 				  ?>	
-	  
-
-
 	<?php } ?>	
 </div>
 	

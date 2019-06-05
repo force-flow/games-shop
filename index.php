@@ -10,11 +10,11 @@
 </head>
 <body class="bg-light">
 
-	<form action="new.php" method="POST" class="text-center">
+	<form action="new.php" method="POST" class="text-center" enctype="multipart/form-data">
 		<h2>Добавить игру</h2>
 		<input type="text"placeholder="Название" name="a">
 		<input type="text"placeholder="Цена" name="b">
-		<input type="text"placeholder="Картинка" name="c">
+		<input type="file"placeholder="Картинка" name="c">
 		<button class="text-white bg-success btn">Добавить</button>
 	</form>
 	<form action="offer.php" class="text-center">
